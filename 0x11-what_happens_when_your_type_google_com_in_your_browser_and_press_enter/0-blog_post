@@ -1,0 +1,31 @@
+Title: The Journey of a URL: Unraveling the Web Stack
+
+Introduction:
+In the vast landscape of the internet, the simple act of typing a URL into your browser and pressing Enter initiates a complex chain of events. As a software engineer, understanding this journey is essential. In this blog post, we will dissect the process step by step, focusing on key components of the web stack.
+
+1. **DNS Request:**
+The journey begins with a DNS (Domain Name System) request. When you type "https://www.google.com" in your browser and hit Enter, your computer sends a DNS query to translate the human-readable domain name (www.google.com) into an IP address. This translation is crucial for the subsequent steps in establishing a connection.
+
+2. **TCP/IP:**
+With the IP address obtained from the DNS resolution, your browser initiates a connection using the Transmission Control Protocol (TCP) over the Internet Protocol (IP). TCP ensures reliable, ordered, and error-checked delivery of data packets, establishing a connection between your computer and the server hosting the Google website.
+
+3. **Firewall:**
+As the connection is established, it may pass through firewalls, which are network security systems designed to monitor and control incoming and outgoing network traffic. Firewalls play a vital role in ensuring that the communication adheres to predefined security rules.
+
+4. **HTTPS/SSL:**
+In today's internet landscape, security is paramount. The connection between your browser and the server is secured using HTTPS (Hypertext Transfer Protocol Secure) with SSL (Secure Socket Layer) or its successor, TLS (Transport Layer Security). This encryption ensures that the data exchanged between your computer and the server remains private and secure.
+
+5. **Load-Balancer:**
+Many popular websites, including Google, utilize load balancers to distribute incoming traffic across multiple servers. Load balancing enhances reliability and scalability by preventing any single server from becoming a bottleneck. It ensures that the user experience remains smooth, even during high traffic periods.
+
+6. **Web Server:**
+Once the secure connection is established and the load balancer directs the request, it reaches one of Google's web servers. The web server's primary function is to handle HTTP requests, process them, and return the requested web pages or resources. Popular web servers include Apache, Nginx, and Microsoft IIS.
+
+7. **Application Server:**
+In the case of complex web applications, the web server may communicate with an application server. The application server executes business logic, interacts with databases, and generates dynamic content. This separation of concerns enhances scalability and maintainability.
+
+8. **Database:**
+Behind the scenes, data is often stored in databases. In the case of Google, a massive amount of data is stored and retrieved from distributed databases. This step involves querying the database for the requested information, such as search results or user data.
+
+Conclusion:
+The journey initiated by typing "https://www.google.com" into your browser is a testament to the intricate web stack that underlies our internet experience. From DNS resolution to database queries, each step contributes to the seamless delivery of information. Aspiring software engineers should grasp these concepts, as they form the foundation of web development and system architecture. Understanding the web stack is not only crucial for acing interviews but also for building robust, scalable, and secure web applications in the real world.
