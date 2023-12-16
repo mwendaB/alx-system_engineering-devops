@@ -1,0 +1,32 @@
+DNS Resolution:
+
+Start with the user's device on the left side.
+Draw an arrow labeled "DNS Request" pointing to a DNS server.
+Connect the DNS server to Google's IP address.
+TCP/IP Connection:
+
+Draw an arrow labeled "TCP/IP Connection" from the user's device to Google's server IP on the appropriate port (typically port 443 for HTTPS).
+Encryption (HTTPS/SSL):
+
+Indicate encryption by drawing a lock icon along the arrow between the user's device and Google's server.
+Firewall:
+
+Place a firewall icon in the path between the user's device and Google's server, with an arrow passing through it.
+Load Balancer:
+
+After the firewall, draw an arrow leading to a load balancer.
+Connect the load balancer to multiple web servers (you can represent them as server icons).
+Web Server:
+
+From the load balancer, draw arrows pointing to individual web servers.
+Label these arrows as "Request" and "Response."
+On the web server, indicate the serving of a web page.
+Application Server:
+
+Draw an arrow labeled "Application Server" from the web server to an application server.
+On the application server, indicate the generation of the web page.
+Database:
+
+Connect the application server to a database server.
+Draw an arrow labeled "Database Request" from the application server to the database.
+On the database, indicate the retrieval of data.
